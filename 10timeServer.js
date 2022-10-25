@@ -2,10 +2,12 @@ const net = require('net')
 const port = process.argv[2];
 
 function fill(number) {
-    if (number < 10)
+    if (number < 10){
         return '0' + number
-    else
+    } 
+    else{
         return number
+    }
 }
 
 function date () {
